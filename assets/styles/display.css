@@ -1,0 +1,70 @@
+/* Display
+
+Nos sirve para controlar como se muestra un elemento dentro de nuestro documento
+
+Esta propiedad es distinta de position porque display se encarga de definir como se muestran o ocultan elementos (NO SE ELIMINA EL CODIGO)
+
+    - none
+    - inline
+    - blick
+    - inline-block
+
+
+
+
+*/
+
+/* Estilos generales */
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para mis articulos */
+
+#articuloUno{
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    border: 1px solid black;
+
+}
+
+#articuloDos{
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    display: none;
+}
+
+#articuloTres{
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    display: flex;
+}
+
+ li{
+    display: inline;
+    margin: 30px;
+    border: 5px solid blue;
+}
+
+
+
+
+/* 
+ none
+
+ hace que el elemento se oculte completamente y que no ocupe espacio en la pagina (no se elimina) y este valor se utiliza comunmente para ocultar elementos debido a la interacción con la ventana del navegador (un menu que se oculte cuando la ventana se haga pequeña)
+
+
+inline (en linea)
+
+Es el valor por defecto, hace que el elemento se muestre en linea con el texto que lo rodea
+
+
+*/
